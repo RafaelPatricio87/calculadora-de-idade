@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #f3f3f3f5;
+}
+img{
+  display: block;
+  width: 30px;
+}
+.container{
+  margin: 2rem auto;
+  width: 385px;
+  background-color: #fff;
+  padding: 50px 20px;
+  border-radius: 28px 28px 90px 28px;
+}
+.formulario{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+input{
+  width: 100px;
+  padding:14px 20px 14px 10px;
+  border-radius: 8px;
+  border: 1px solid hsl(0, 1%, 44%);
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(0, 0%, 86%);
+}
+.btn button{
+  background-color: hsl(259, 100%, 65%);
+  padding: 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.resultado{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.resultado h3 {
+  margin-left: 30px;
+  font-size: 58px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-style: italic;
+  color: hsl(259, 100%, 65%);
+}
+.resultado span{
+  color: #000;
+  font-size: 58px;
+  line-height: 1.2;
+  font-weight: 800;
+  font-style: italic;
+}
+.resultado-item{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
